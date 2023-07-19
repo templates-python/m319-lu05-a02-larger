@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "first number",
+      "setup": "",
+      "run": "python3 larger.py",
+      "input": "21\n4",
+      "output": "Greater number is: 21\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "second number",
+      "setup": "",
+      "run": "python3 larger.py",
+      "input": "-7\n56",
+      "output": "Greater number is: 56\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "equal",
+      "setup": "",
+      "run": "python3 larger.py",
+      "input": "31\n31",
+      "output": "The numbers are equal!\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
