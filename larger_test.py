@@ -2,7 +2,7 @@ from larger import main
 
 
 def test_first(capsys, monkeypatch):
-    inputs = iter([15, -8])
+    inputs = iter(['15', '-8'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -10,7 +10,7 @@ def test_first(capsys, monkeypatch):
 
 
 def test_second(capsys, monkeypatch):
-    inputs = iter([21, 37])
+    inputs = iter(['21', '37'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -18,7 +18,7 @@ def test_second(capsys, monkeypatch):
 
 
 def test_equal(capsys, monkeypatch):
-    inputs = iter([17, 17])
+    inputs = iter(['17', '17'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
