@@ -1,0 +1,20 @@
+[
+  {
+    "name": "first number",
+    "function": "first number",
+    "timeout": 1,
+    "points": 1
+  },
+  {
+    "name": "second number",
+    "function": "second number",
+    "timeout": 1,
+    "points": 1
+  },
+  {
+    "name": "equal",
+    "function": "equal",
+    "timeout": 1,
+    "points": 1
+  }
+]
