@@ -1,13 +1,13 @@
 [
   {
     "name": "first number",
-    "function": "first number",
+    "function": "first_number",
     "timeout": 1,
     "points": 1
   },
   {
     "name": "second number",
-    "function": "second number",
+    "function": "second_number",
     "timeout": 1,
     "points": 1
   },
