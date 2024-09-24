@@ -1,19 +1,19 @@
 [
   {
-    "name": "first number",
-    "function": "first_number",
+    "name": "test_first",
+    "function": "test_first",
     "timeout": 1,
     "points": 1
   },
   {
-    "name": "second number",
-    "function": "second_number",
+    "name": "test_second",
+    "function": "test_second",
     "timeout": 1,
     "points": 1
   },
   {
-    "name": "equal",
-    "function": "equal",
+    "name": "test_equal",
+    "function": "test_equal",
     "timeout": 1,
     "points": 1
   }
